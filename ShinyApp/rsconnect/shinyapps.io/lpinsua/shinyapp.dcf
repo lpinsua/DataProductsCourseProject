@@ -5,6 +5,8 @@ account: lpinsua
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3329093
-bundleId: 3926253
+bundleId: 3926320
 url: https://lpinsua.shinyapps.io/shinyapp/
-when: 1606802769.58525
+when: 1606804168.36532
+asMultiple: FALSE
+asStatic: FALSE
