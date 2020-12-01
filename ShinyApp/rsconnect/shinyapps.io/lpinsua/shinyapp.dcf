@@ -1,0 +1,10 @@
+name: shinyapp
+title:
+username:
+account: lpinsua
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3329093
+bundleId: 3926253
+url: https://lpinsua.shinyapps.io/shinyapp/
+when: 1606802769.58525

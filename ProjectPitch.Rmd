@@ -9,27 +9,26 @@ output: slidy_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## R Markdown
+## Summary
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+The app lets you visualize a histogram of the miles per gallon variable in the Motor Trends Car dataset, according to the value you select in the slider.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
 
-## Slide with Bullets
+## Dataset Summary
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-## Slide with R Output
-
+Here is the summary of the dataset used.
 ```{r cars, echo = TRUE}
-summary(cars)
+summary(mtcars)
 ```
 
-## Slide with Plot
-
-```{r pressure}
-plot(pressure)
+## Histogram
+An example of the histogram you will see.
+```{r plot}
+hist(mtcars$mpg)
 ```
 
+## What do you think?
+
+How many bins represent the distribution in the best possible way?
+
+6, 7, 8, 9?
